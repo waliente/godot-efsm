@@ -1,5 +1,7 @@
 # Godot easy Finite State Machine - a new way to machine! :)
 
+<img src="https://i.ibb.co/dGbP2VF/efsm.png" />
+
 This is an example project with my state machine logic. All the assets included are findable for free on itch.io.
 
 Godot eFSM is a very simple but useful state machine logic. It works fine and keep your code splitted in many nodes.
