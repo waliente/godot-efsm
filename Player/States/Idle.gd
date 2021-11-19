@@ -5,7 +5,7 @@ onready var StateLabel = get_node("../../StateLabel")
 func execute():
 	StateLabel.text = "idle"
 	Player.update_direction()
-	AnimatedSprite.play("idle")
+	SpriteAnim.play("idle")
 	Player.velocity.x = lerp(Player.velocity.x, 0, Player.friction)
 	
 	if -20 <= Player.velocity.x and Player.velocity.x <= 20:

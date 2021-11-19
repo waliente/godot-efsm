@@ -4,5 +4,5 @@ onready var StateLabel = get_node("../../StateLabel")
 
 func execute():
 	StateLabel.text = "die"
-	AnimatedSprite.play("die")
+	SpriteAnim.play("die")
 	# TODO

@@ -5,7 +5,7 @@ onready var StateLabel = get_node("../../StateLabel")
 func execute():
 	StateLabel.text = "run"
 	Player.update_direction()
-	AnimatedSprite.play("run")
+	SpriteAnim.play("run")
 	Player.velocity.x = lerp(Player.velocity.x, Player.direction * Player.speed, Player.acceleration)
 	
 	# go to IDLE state

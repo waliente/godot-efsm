@@ -6,7 +6,7 @@ onready var StateLabel = get_node("../../StateLabel")
 func execute():
 	StateLabel.text = "dash"
 	DashResetTimer.start()
-	AnimatedSprite.play("dash")
+	SpriteAnim.play("dash")
 	Player.can_dash = false
 	
 	# go to JUMP state
